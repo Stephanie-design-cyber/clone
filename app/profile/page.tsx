@@ -9,9 +9,9 @@ export default function Profile() {
                 <Link href="/welcome" className="pt-3 block">
                     <ArrowLeft strokeWidth={1} />
                 </Link>
-                <figure className="flex justify-center items-center p-4 rounded-full w-[80px] h-[80px] mx-auto bg-[#D9D9D9] mt-18">
+                <figure className="flex justify-center items-center rounded-full w-fit h-fit mx-auto bg-[#D9D9D9] mt-18">
                     <Image
-                        className="w-18.75 h-18.25"
+                        className="w-full h-full rounded-full"
                         src="/images/profilep.svg"
                         alt="logo"
                         height={73}
