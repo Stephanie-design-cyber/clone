@@ -9,12 +9,13 @@ export default function Profile() {
                 <Link href="/welcome" className="pt-3 block">
                     <ArrowLeft strokeWidth={1} />
                 </Link>
-                <figure className="flex justify-center mt-18">
+                <figure className="flex justify-center items-center p-4 rounded-full w-[80px] h-[80px] mx-auto bg-[#D9D9D9] mt-18">
                     <Image
+                        className="w-18.75 h-18.25"
                         src="/images/profilep.svg"
                         alt="logo"
-                        height={136}
-                        width={136}
+                        height={73}
+                        width={75}
                     />
                 </figure>
                 <div className="mt-20">
@@ -34,7 +35,10 @@ export default function Profile() {
                         <h1 className="text-base text-[#00000099]">Password</h1>
                         <p className="text-black text-base">********</p>
                     </div>
-                    <Link href="/" className="mt-3.5 flex items-center gap-3.5">
+                    <Link
+                        href="/"
+                        className="mt-3.5 flex items-center justify-center gap-3.5"
+                    >
                         <LogOut />
                         <span>Log Out</span>
                     </Link>

@@ -1,32 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+import { UserRound, Star, DollarSign, House } from "lucide-react";
 
 export default function Welcome() {
     return (
         <>
             <section className="bg-[#004488] font-inter pt-10 pb-14">
                 <div className="max-w-103 mx-auto px-4">
-                    <div className="flex items-center gap-2">
-                        <Link href="/profile">
-                            <Image
-                                src="/images/profile.svg"
-                                alt="logo"
-                                height={50}
-                                width={50}
-                            />
-                        </Link>
+                    <h3 className="text-sm font-medium text-center text-white">
+                        Welcome Stephanie Car...4356
+                    </h3>
 
-                        <div>
-                            <h1 className="text-white text-sm font-normal">
-                                Welcome
-                            </h1>
-                            <p className="text-white mt-0.5 font-bold text-base">
-                                Stephanie
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="mt-16">
+                    <div className="mt-14">
                         <h1 className="text-center mt-0.5 font-bold text-sm text-white">
                             CURRENT BALANCE
                         </h1>
@@ -55,12 +40,12 @@ export default function Welcome() {
                     </div>
                 </div>
             </section>
-            <section className="max-w-103 mx-auto px-4 font-inter pb-6">
+            <section className="max-w-103 mx-auto px-4 font-inter pb6">
                 <h1 className="font-medium text-[15px] mt-4 w-fit pb-2.5 border-b-4 text-[#004488]">
                     Activity
                 </h1>
                 <div className="mt-7">
-                    <div className="h-107.5 overflow-y-scroll no-scrollbar">
+                    <div className="h-[calc(100vh-500px)] overflow-y-scroll no-scrollbar">
                         <h2 className="text-black text-xs">Feb 4</h2>
                         <div className="mt-2 py-2.75 border-b-[#9A9A9AA1] border-b flex items-center justify-between">
                             <div className="flex items-center gap-2">
